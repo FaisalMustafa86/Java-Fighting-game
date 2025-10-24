@@ -1,4 +1,4 @@
-# 🥊 JavaFX Fighting Game
+# 🥊 Java Fighting Game
 
 A 2D **turn-based fighting game** inspired by classic titles like **Street Fighter** and **Tekken**. Built using **Java** and **Swing**, this project supports **two human-controlled characters** battling it out locally. It includes **attack animations** and a **pause screen**.
 
