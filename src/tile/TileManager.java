@@ -26,6 +26,10 @@ public class TileManager {
     }
 
     public void draw(Graphics2D g2){
-        g2.drawImage(tile.image,0,0, 1540, 870, null);
+        g2.drawImage(tile.image, 0, 0, gp.screenWidth, gp.screenHeight, null);
+
+        // subtle ground shade so fighters read against the backdrop
+        g2.setColor(new Color(0, 0, 0, 70));
+        g2.fillRect(0, gp.groundY + 8, gp.screenWidth, gp.screenHeight - gp.groundY);
     }
 }
